@@ -27,3 +27,283 @@
   font-display: swap;
   src: url(https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuI6fMZg.ttf) format('truetype');
 }
+.flex {
+  display: flex;
+}
+.title {
+  font-size: 2em;
+  padding: 0.8em 0;
+  color: #292929;
+  font-weight: 600;
+  font-family: 'Montserrat';
+}
+.container {
+  width: 100%;
+}
+.container .content {
+  width: 920px;
+  margin: 0 auto;
+}
+.container .content header {
+  height: auto;
+  padding: 1em 0;
+}
+.container .content header nav {
+  align-items: center;
+  justify-content: space-between;
+}
+.container .content header nav h2 {
+  font-size: 1.5em;
+  font-weight: 700;
+  font-family: 'Montserrat';
+  color: #292929;
+}
+.container .content header nav h2 .redd {
+  color: #DA2535;
+}
+.container .content header nav h2 .grein {
+  color: #7ba428;
+}
+.container .content header nav ul {
+  align-items: center;
+  gap: 20px;
+}
+.container .content header nav ul li {
+  color: #292929;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 1em;
+  cursor: pointer;
+}
+.container .content header nav a {
+  color: #292929;
+  border: 1px solid #292929;
+  border-radius: 10px;
+  width: 180px;
+  height: 40px;
+  text-align: center;
+  padding: 10px;
+  font-family: 'Inter';
+  font-weight: 600;
+  background-color: transparent;
+}
+.container .content .one {
+  height: auto;
+  padding: 2em 0;
+  align-items: center;
+  justify-content: space-between;
+}
+.container .content .one .content-text {
+  text-align: left;
+}
+.container .content .one .content-text p {
+  color: #292929;
+  font-weight: 400;
+  font-family: 'Inter';
+  font-size: 1em;
+  padding-bottom: 1em;
+  line-height: 160%;
+}
+.container .content .one .content-text .btn {
+  color: #FBFBFB;
+  font-family: 'Inter';
+  font-weight: 500;
+  border-radius: 10px;
+  background-color: #DA2535;
+  text-align: center;
+  font-size: 1em;
+  width: 220px;
+  height: 40px;
+}
+.container .content .one .img img {
+  width: 300px;
+  height: 400px;
+}
+.container .content .two {
+  height: auto;
+  padding: 2em 0;
+  align-items: center;
+  justify-content: space-between;
+}
+.container .content .two .box-img img {
+  width: 400px;
+  height: 280px;
+}
+.container .content .two .box-title p {
+  color: #292929;
+  font-size: 1em;
+  font-family: 'Inter';
+  font-weight: 400;
+  line-height: 160%;
+  padding-bottom: 0.8em;
+}
+.container .content .two .box-title a {
+  color: #DA2535;
+  font-family: 'Inter';
+  font-weight: 500;
+  text-decoration: underline;
+  font-size: 1.5rem;
+}
+.container .content .three {
+  height: auto;
+  padding: 2em 0;
+}
+.container .content .three h2 {
+  text-align: center;
+}
+.container .content .three .contentOptions {
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4em;
+}
+.container .content .three .contentOptions .card {
+  background-color: #F3F3F3;
+  position: relative;
+  height: 320px;
+  width: 300px;
+  border-radius: 32px;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.container .content .three .contentOptions .card img {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: -50px;
+  left: 50px;
+}
+.container .content .three .contentOptions .card .infos {
+  text-align: center;
+  color: #292929;
+}
+.container .content .three .contentOptions .card .infos .name {
+  font-size: 2.5rem;
+  font-weight: 500;
+  padding-top: 5em;
+  font-family: 'Montserrat';
+}
+.container .content .three .contentOptions .card .infos .description {
+  font-size: 1.2rem;
+  color: #616161;
+  font-family: 'Inter';
+  padding: 1em;
+  padding-bottom: 2em;
+}
+.container .content .three .contentOptions .card .infos .price {
+  font-size: 2.5rem;
+  font-family: 'Montserrat';
+  font-weight: 500;
+}
+.container .content .four {
+  height: auto;
+  padding: 1em 0;
+}
+.container .content .four h2 {
+  text-align: left;
+}
+.container .content .four .feedbacks {
+  align-items: center;
+  justify-content: space-between;
+}
+.container .content .four .feedbacks .card {
+  background-color: #F3F3F3;
+  border-radius: 32px;
+  width: 430px;
+  height: 240px;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.container .content .four .feedbacks .card img {
+  width: 50px;
+  height: 50px;
+}
+.container .content .four .feedbacks .card .name {
+  color: #292929;
+  font-family: 'Montserrat';
+  font-weight: 500;
+}
+.container .content .four .feedbacks .card .res {
+  color: #616161;
+  font-family: 'Inter';
+  font-weight: 400;
+}
+.container .content .four .feedbacks .card .classification {
+  background-image: url(../assets/img/Vector.png);
+  width: 100px;
+  height: 18px;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: 20%;
+}
+.container .content .five .box-search {
+  justify-content: center;
+  position: relative;
+  padding: 1em 0 ;
+}
+.container .content .five .box-search .icon,
+.container .content .five .box-search button {
+  position: absolute;
+}
+.container .content .five .box-search .icon {
+  width: 20px;
+  height: 20px;
+  left: 224px;
+  top: 25px;
+}
+.container .content .five .box-search input {
+  border: 1px solid #292929;
+  width: 500px;
+  height: 40px;
+  background-color: transparent;
+  padding-left: 50px;
+  border-radius: 10px 0px 0px 10px;
+}
+.container .content .five .box-search button {
+  border-radius: 0px 10px 10px 0px;
+  background-color: #DA2535;
+  color: #FBFBFB;
+  width: 183px;
+  height: 40px;
+  text-align: center;
+  right: 100px;
+}
+.container .content footer {
+  height: auto;
+  padding: 2em 0;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+.container .content footer h2 {
+  font-size: 1.5em;
+  font-weight: 700;
+  font-family: 'Montserrat';
+  color: #292929;
+}
+.container .content footer h2 .redd {
+  color: #DA2535;
+}
+.container .content footer h2 .grein {
+  color: #7ba428;
+}
+.container .content footer ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: left;
+}
+.container .content footer ul li:first-of-type {
+  font-weight: bold;
+  font-family: 'Montserrat';
+  color: #292929;
+  font-size: 1.5em;
+}
+.container .content footer ul li {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 0.7em;
+  color: #616161;
+}
