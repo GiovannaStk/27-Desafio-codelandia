@@ -337,5 +337,84 @@
     }
 }
 
+//mobile 
+
+@media (max-width: 425px) {
+    .container{
+        .content{
+            width: 100%;
+            padding: 0 1em;
+
+
+            header{
+                nav{
+
+                    ul{
+                        display: none;
+                    }
+                }
+            }
+
+            .one{
+                justify-content: center;
+                .content-text{
+                    .btn{
+                        width: 100%;
+                    }
+                }
+
+                .img{
+                    display: none;
+                }
+            }
+
+            .two{
+                flex-direction: column;
+
+
+                .box-title{
+                    text-align: center;
+                }
+            }
+
+            .three{
+                .contentOptions{
+                    flex-direction: column;
+                    gap: 100px;
+                }
+            }
+
+            .four{
+                .feedbacks{
+                    flex-direction: column;
+                    gap: 50px;
+
+
+                    .card{
+                        width: 312px;
+                    }
+                }
+            }
+
+            .five{
+                .box-search{
+                    justify-content: flex-start;
+
+                    .icon{
+                        left: 15px;
+                    }
+
+                    input{
+                        width: 270px;
+                    }
+                    button{
+                        width: 127px;
+                        right: 0;
+                    }
+                }
+            }
+        }
+    }   
+}
 
 //Necessário refatorar o css
